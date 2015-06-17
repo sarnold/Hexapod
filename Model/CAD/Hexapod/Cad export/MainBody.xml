@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimMechanicsImportXML version="1.0" xmlns="urn:mathworks:simmechanics:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="02/01/15||21:35:28" using="SimMechanics Link Version 4.5" from="SolidWorks 22.2.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="Hexapod" uid="Hexapod" version="231">
+<AssemblyFile name="Hexapod.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="Main_body-1" uid="Main_body-1" entityUid="Main_body*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Main_body-1</Uid>
+</InstancePath>
+<Position>0.060910077554195613 -0.12191007755419607 -0.0025999999999923125</Position>
+<Axis>6.2979993961496698e-014 9.4136666286444303e-014 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cone">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.060910077554195793 -0.12191007755419581 0.00026000000000767076</Position>
+<Axis>-6.297999396149671e-014 -9.4136666286444316e-014 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Main_body-1</Uid>
+</InstancePath>
+<Position>0.060910077554195613 -0.11514447987180318 -0.0025999999999929504</Position>
+<Axis>6.28466640991764e-014 9.4269996148764601e-014 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.060913171438385337 -0.11601101549521259 -0.0025999999999928832</Position>
+<Axis>-6.297999396149671e-014 -9.4136666286444316e-014 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Main_body-1</Uid>
+</InstancePath>
+<Position>0.10349999999999983 -2.5392014879610514e-016 -0.0026000000000064678</Position>
+<Axis>6.3035220998739095e-014 9.4269996148764601e-014 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cone">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.10350000000000001 0 0.00025999999999354317</Position>
+<Axis>-6.3035220998739095e-014 -9.4269996148764601e-014 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Main_body-1</Uid>
+</InstancePath>
+<Position>0.098715999999999832 0.0047839999999997459 -0.0026000000000066183</Position>
+<Axis>6.28466640991764e-014 9.4269996148764601e-014 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.099330920921943094 0.0041734544910380081 -0.0026000000000065858</Position>
+<Axis>-6.3035220998739095e-014 -9.4269996148764601e-014 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="cone">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.060910077554195814 0.12191007755419582 0.00025999999998471473</Position>
+<Axis>-6.28466640991764e-014 -9.4269996148764613e-014 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Main_body-1</Uid>
+</InstancePath>
+<Position>0.060910077554195634 0.12191007755419556 -0.0026000000000152841</Position>
+<Axis>6.2979993961496698e-014 9.4403326011084898e-014 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Main_body-1</Uid>
+</InstancePath>
+<Position>0.05414447987180275 0.12191007755419556 -0.0026000000000148591</Position>
+<Axis>6.28466640991764e-014 9.4269996148764601e-014 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.055011015495212152 0.12191317143838529 -0.0026000000000149133</Position>
+<Axis>-6.28466640991764e-014 -9.4269996148764613e-014 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric6">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Main_body-1</Uid>
+</InstancePath>
+<Position>-0.060910077554195932 -0.12191007755419608 -0.0025999999999846567</Position>
+<Axis>6.2713334236856103e-014 9.4136666286444303e-014 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cone">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>-0.060910077554203537 -0.12191007755419193 0.00026000000001534214</Position>
+<Axis>-6.2713334236856116e-014 -9.4136666286444303e-014 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident10">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Main_body-1</Uid>
+</InstancePath>
+<Position>-0.054144479871803049 -0.12191007755419608 -0.0025999999999850817</Position>
+<Axis>6.28466640991764e-014 9.4269996148764601e-014 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>-0.055011015495220229 -0.12191317143838193 -0.0025999999999850257</Position>
+<Axis>-6.2713334236856116e-014 -9.4136666286444303e-014 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric7">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Main_body-1</Uid>
+</InstancePath>
+<Position>-0.10350000000000016 -2.5392014879610514e-016 -0.002599999999993466</Position>
+<Axis>6.2658107199613706e-014 9.4269996148764601e-014 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cone">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>-0.10349999999999998 6.4812904962446458e-015 0.00026000000000653235</Position>
+<Axis>-6.2658107199613706e-014 -9.4269996148764601e-014 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident12">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Main_body-1</Uid>
+</InstancePath>
+<Position>-0.098716000000000165 -0.0047840000000002542 -0.0025999999999933156</Position>
+<Axis>6.28466640991764e-014 9.4269996148764601e-014 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>-0.099330920921943427 -0.0041734544910320475 -0.0025999999999933338</Position>
+<Axis>-6.2658107199613706e-014 -9.4269996148764601e-014 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric8">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Main_body-1</Uid>
+</InstancePath>
+<Position>-0.06091007755419596 0.12191007755419556 -0.0026000000000076283</Position>
+<Axis>6.2713334236856103e-014 9.4403326011084898e-014 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cone">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>-0.060910077554188057 0.12191007755419968 0.00025999999999236963</Position>
+<Axis>-6.28466640991764e-014 -9.4269996148764588e-014 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident14">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Main_body-1</Uid>
+</InstancePath>
+<Position>-0.060910077554195953 0.11514447987180267 -0.0026000000000069904</Position>
+<Axis>6.28466640991764e-014 9.4269996148764601e-014 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>-0.060913171438377961 0.11601101549521593 -0.0026000000000070723</Position>
+<Axis>-6.28466640991764e-014 -9.4269996148764588e-014 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Main_body-1</Uid>
+</InstancePath>
+<Position>-0.056165391052435988 -0.13555016736328726 -0.031079999999983669</Position>
+<Axis>0.70710678118654768 -0.70710678118654746 2.2219651179740372e-014</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>-0.070809572488852904 -0.14948724202199026 -0.040899999999981437</Position>
+<Axis>0.7071067811865025 -0.70710678118659265 2.2219651179747453e-014</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Parallel name="Parallel6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Main_body-1</Uid>
+</InstancePath>
+<Position>-0.10979000000000196 -0.01300000000000294 -0.031079999999991843</Position>
+<Axis>0 -1 9.4269996148764601e-014</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>-0.12999999999968734 -0.012500000002460992 -0.040899999999990624</Position>
+<Axis>-6.2469550300045116e-014 -1 9.4269996148768513e-014</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Parallel name="Parallel7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Main_body-1</Uid>
+</InstancePath>
+<Position>-0.074550167363286249 0.11716539105243112 -0.031080000000006321</Position>
+<Axis>-0.70710678118654702 -0.70710678118654813 1.1109825589870198e-013</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>-0.08848724202198513 0.13180957248884256 -0.040900000000006827</Position>
+<Axis>-0.70710678118659176 -0.70710678118650339 1.1109825589870058e-013</Axis>
+</ConstraintGeometry>
+</Parallel>
+<UnknownConstraint name="Coincident17">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Main_body-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</UnknownConstraint>
+</Constraints>
+<Frames>
+</Frames>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="Main_body" uid="Main_body*:*Default" version="119">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Main_body.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.52388408520439878</Mass>
+<CenterOfMass>0.0024441717277725954 -0.004272894105221553 -0.016768285629264378</CenterOfMass>
+<Inertia>0.0025463640659093411 0.0013254174857460219 0.0037678978737954285 -5.6896032566736568e-006 -9.6441151822710318e-009 5.5959490287866035e-008</Inertia>
+</MassProperties>
+<GeometryFile name="Main_body_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+<Frames>
+<Frame name="F1" uid="F1">
+<Transform>
+<Rotation>0.70710678118654746 -0.70710678118654757 1.5711666024794104e-013 0.70710678118654768 0.70710678118654735 0 -1.1109825589870197e-013 1.1109825589870198e-013 1</Rotation>
+<Translation>0.060910077554195613 -0.12191007755419608 -0.0025999999999923307</Translation>
+</Transform>
+</Frame>
+<Frame name="F2" uid="F2">
+<Transform>
+<Rotation>0 -1 0 1 0 9.4269996148764601e-014 -9.4269996148764601e-014 0 1</Rotation>
+<Translation>0.10349999999999983 0 -0.0026000000000064583</Translation>
+</Transform>
+</Frame>
+<Frame name="F3" uid="F3">
+<Transform>
+<Rotation>-0.7071067811865468 -0.70710678118654835 6.28466640991764e-014 0.70710678118654835 -0.7071067811865468 9.4269996148764588e-014 -2.2219651179740511e-014 1.1109825589870193e-013 1</Rotation>
+<Translation>0.060910077554195641 0.12191007755419556 -0.0026000000000152867</Translation>
+</Transform>
+</Frame>
+</Frames>
+</Part>
+</Parts>
+</SimMechanicsImportXML>

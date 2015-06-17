@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimMechanicsImportXML version="1.0" xmlns="urn:mathworks:simmechanics:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="02/01/15||21:22:47" using="SimMechanics Link Version 4.5" from="SolidWorks 22.2.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="Left_Leg_nojoint" uid="Left_Leg_nojoint" version="243">
+<AssemblyFile name="Left_Leg_nojoint.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="Coxa_left-3" uid="Coxa_left-3" grounded="true" entityUid="Coxa_left*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Tibia_left-3" uid="Tibia_left-3" entityUid="Tibia_left*:*Default">
+<Transform>
+<Rotation>9.7846793763446998e-015 3.1857662847685095e-016 -1 1.6653345369377462e-016 1 3.1857662847685268e-016 1 -1.6653345369377777e-016 9.7846793763446998e-015</Rotation>
+<Translation>-0.015199983703540377 -0.11750004104712959 -0.025342267106535463</Translation>
+</Transform>
+</Instance>
+<Instance name="Femur_left-3" uid="Femur_left-3" entityUid="Femur_left*:*Default">
+<Transform>
+<Rotation>7.0939849801487832e-015 0 -1 0 1 0 1 0 7.0939849801487832e-015</Rotation>
+<Translation>-0.014299679915595047 -0.052999999999367935 -0.01429967991559499</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<UnknownConstraint name="Coincident8">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Femur_left-3</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Left_Leg_nojoint</Uid>
+</InstancePath>
+<Position>-0.014299679915594948 -0.052999999999367935 -0.014299679915595088</Position>
+</ConstraintGeometry>
+</UnknownConstraint>
+<UnknownConstraint name="Coincident11">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Tibia_left-3</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Left_Leg_nojoint</Uid>
+</InstancePath>
+<Position>-0.015199983703540377 -0.11750004104712959 -0.025342267106535463</Position>
+</ConstraintGeometry>
+</UnknownConstraint>
+</Constraints>
+<Frames>
+<Frame name="F1_coxa" uid="F1_coxa">
+<Transform>
+<Rotation>1.4740502292922878e-016 2.6611337870406604e-016 -1 -9.8132253585383945e-016 1 2.6611337870406589e-016 1 9.8132253585383945e-016 1.4740502292922905e-016</Rotation>
+<Translation>-0.014299679915594948 -0.052999999999367935 -0.014299679915595088</Translation>
+</Transform>
+</Frame>
+<Frame name="F1_femur" uid="F1_femur">
+<Transform>
+<Rotation>9.7846793763446998e-015 3.185766284768509e-016 -1 1.6653345369377466e-016 1 3.1857662847685258e-016 1 -1.6653345369377775e-016 9.7846793763446998e-015</Rotation>
+<Translation>-0.015199983703540377 -0.11750004104712959 -0.025342267106535463</Translation>
+</Transform>
+</Frame>
+</Frames>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="Coxa_left" uid="Coxa_left*:*Default" version="110">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Coxa_left.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.023996850766747905</Mass>
+<CenterOfMass>-0.00093906891947679975 -0.026499999999683974 -0.013360610996118167</CenterOfMass>
+<Inertia>1.9924370956103433e-006 5.0396195080190589e-007 1.9924370956103429e-006 -5.9797945054951519e-007 -2.1411025390203974e-007 -5.9797945054951424e-007</Inertia>
+</MassProperties>
+<GeometryFile name="Coxa_left_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.90980392156862744" g="0.44313725490196076" b="0.031372549019607843" a="1"/>
+<Diffuse r="0.90980392156862744" g="0.44313725490196076" b="0.031372549019607843" a="1"/>
+<Specular r="0.90980392156862744" g="0.44313725490196076" b="0.031372549019607843" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.31</Shininess>
+</VisualProperties>
+<Frames>
+<Frame name="F" uid="F">
+<Transform>
+<Rotation>1.4740502292922878e-016 0 -1 -9.8132253585382841e-016 1 0 1 9.8132253585382841e-016 1.4740502292922878e-016</Rotation>
+<Translation>-0.014299679915595047 -0.052999999999367935 -0.01429967991559499</Translation>
+</Transform>
+</Frame>
+</Frames>
+</Part>
+<Part name="Femur_left" uid="Femur_left*:*Default" version="113">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Femur_left.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.058200663365895265</Mass>
+<CenterOfMass>-0.00067197700437395121 -0.024149255345021717 -0.012637321645018806</CenterOfMass>
+<Inertia>1.4929635860211656e-005 6.9357794606727959e-006 1.3309379924341374e-005 1.2841041038193746e-006 3.2117951718864542e-007 -8.9983093877187407e-007</Inertia>
+</MassProperties>
+<GeometryFile name="Femur_left_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0" g="1" b="0" a="1"/>
+<Diffuse r="0" g="1" b="0" a="1"/>
+<Specular r="0" g="1" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.31</Shininess>
+</VisualProperties>
+<Frames>
+<Frame name="F" uid="F">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.01104258719094048 -0.064500041047761664 0.00090030378794525058</Translation>
+</Transform>
+</Frame>
+</Frames>
+</Part>
+<Part name="Tibia_left" uid="Tibia_left*:*Default" version="108">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Tibia_left.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.060961353615034117</Mass>
+<CenterOfMass>-0.016925402354472888 -0.031470885926472222 -0.01304198574168219</CenterOfMass>
+<Inertia>6.5149765075788553e-005 7.3222773314717503e-005 0.00012201456508768892 -2.0808021150295537e-007 -3.781051845232781e-007 -5.2169277476278887e-005</Inertia>
+</MassProperties>
+<GeometryFile name="Tibia_left_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0" g="0" b="1" a="1"/>
+<Diffuse r="0" g="0" b="1" a="1"/>
+<Specular r="0" g="0" b="1" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.31</Shininess>
+</VisualProperties>
+<Frames>
+</Frames>
+</Part>
+</Parts>
+</SimMechanicsImportXML>

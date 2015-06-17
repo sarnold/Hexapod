@@ -1,0 +1,12 @@
+Constrained Instances: 'Coxa_left-3', 'Left_Leg'
+Constraint Name: Coincident12
+Error Details: Constraint is not supported. The constraint has been exported as unknown constraint.
+---------------------------------------------------------------------------------
+Constrained Instances: 'Femur_left-3', 'Left_Leg'
+Constraint Name: Coincident13
+Error Details: Constraint is not supported. The constraint has been exported as unknown constraint.
+---------------------------------------------------------------------------------
+Constrained Instances: 'Tibia_left-3', 'Femur_left-3'
+Constraint Name: Coincident14
+Error Details: Constraint is not supported. The constraint has been exported as unknown constraint.
+---------------------------------------------------------------------------------

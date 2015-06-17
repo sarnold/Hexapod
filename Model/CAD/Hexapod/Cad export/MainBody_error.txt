@@ -1,0 +1,4 @@
+Constrained Instances: 'Main_body-1', 'Hexapod'
+Constraint Name: Coincident17
+Error Details: Constraint is not supported. The constraint has been exported as unknown constraint.
+---------------------------------------------------------------------------------

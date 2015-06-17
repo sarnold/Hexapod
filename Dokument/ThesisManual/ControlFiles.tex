@@ -1,0 +1,16 @@
+The control-structure is described in the master thesis report.
+Here most of the control files will be described.
+
+The full system is triggered by a trigger-system in order to keep control of execution order.
+The trigger system is saved as a library and linked to from the various implementations.
+Trigger system library can be found under Simulink{\_}Lib/Control.
+Here is also the rest of the control libraries located.
+IK, MainController, coordinate translater and a test sequence exists.
+The most advanced one of these is the main controller.
+If development of the controller is to be done it is inside this it can be performed.
+The controller implementation utilizes written m-files.
+These are located at Control/MatlabFunctions and are explained by comments in the code.
+
+There is a folder located as Control/LegConstriants.
+The script inside is used to get a visualization of the constraint boundaries that can be used for the legs. 
+Script is hopefully self explanatory.

@@ -1,0 +1,20 @@
+\contentsline {section}{\numberline {1}Introduction}{2}{section.0.1}
+\contentsline {section}{\numberline {2}Requierd toolboxes}{2}{section.0.2}
+\contentsline {section}{\numberline {3}Run Instructions}{2}{section.0.3}
+\contentsline {subsection}{\numberline {3.1}Running hexapod Model}{2}{subsection.0.3.1}
+\contentsline {subsection}{\numberline {3.2}Running Code Generation to the hexapod}{3}{subsection.0.3.2}
+\contentsline {subsection}{\numberline {3.3}Using the remote}{4}{subsection.0.3.3}
+\contentsline {section}{\numberline {4}Control}{5}{section.0.4}
+\contentsline {section}{\numberline {5}Documents}{5}{section.0.5}
+\contentsline {section}{\numberline {6}Measurements}{5}{section.0.6}
+\contentsline {section}{\numberline {7}Model}{6}{section.0.7}
+\contentsline {subsection}{\numberline {7.1}CAD/Hexapod}{6}{subsection.0.7.1}
+\contentsline {subsection}{\numberline {7.2}Contact{\_}force}{6}{subsection.0.7.2}
+\contentsline {section}{\numberline {8}Simulink{\_}Lib}{7}{section.0.8}
+\contentsline {subsection}{\numberline {8.1}BeagleBoneBlack}{7}{subsection.0.8.1}
+\contentsline {subsection}{\numberline {8.2}How to build a S-Function}{7}{subsection.0.8.2}
+\contentsline {subsection}{\numberline {8.3}Note on using UART}{8}{subsection.0.8.3}
+\contentsline {subsection}{\numberline {8.4}Control}{8}{subsection.0.8.4}
+\contentsline {subsection}{\numberline {8.5}Model}{8}{subsection.0.8.5}
+\contentsline {subsubsection}{SM{\_}Contact{\_}Forces{\_}Lib}{9}{section*.2}
+\contentsline {section}{\numberline {9}Software}{9}{section.0.9}

@@ -1,0 +1,19 @@
+\BOOKMARK [1][-]{section.0.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.0.2}{Requierd toolboxes}{}% 2
+\BOOKMARK [1][-]{section.0.3}{Run Instructions}{}% 3
+\BOOKMARK [2][-]{subsection.0.3.1}{Running hexapod Model}{section.0.3}% 4
+\BOOKMARK [2][-]{subsection.0.3.2}{Running Code Generation to the hexapod}{section.0.3}% 5
+\BOOKMARK [2][-]{subsection.0.3.3}{Using the remote}{section.0.3}% 6
+\BOOKMARK [1][-]{section.0.4}{Control}{}% 7
+\BOOKMARK [1][-]{section.0.5}{Documents}{}% 8
+\BOOKMARK [1][-]{section.0.6}{Measurements}{}% 9
+\BOOKMARK [1][-]{section.0.7}{Model}{}% 10
+\BOOKMARK [2][-]{subsection.0.7.1}{CAD/Hexapod}{section.0.7}% 11
+\BOOKMARK [2][-]{subsection.0.7.2}{Contact\137force}{section.0.7}% 12
+\BOOKMARK [1][-]{section.0.8}{Simulink\137Lib}{}% 13
+\BOOKMARK [2][-]{subsection.0.8.1}{BeagleBoneBlack}{section.0.8}% 14
+\BOOKMARK [2][-]{subsection.0.8.2}{How to build a S-Function}{section.0.8}% 15
+\BOOKMARK [2][-]{subsection.0.8.3}{Note on using UART}{section.0.8}% 16
+\BOOKMARK [2][-]{subsection.0.8.4}{Control}{section.0.8}% 17
+\BOOKMARK [2][-]{subsection.0.8.5}{Model}{section.0.8}% 18
+\BOOKMARK [1][-]{section.0.9}{Software}{}% 19
